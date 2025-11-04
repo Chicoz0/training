@@ -1,11 +1,15 @@
 import "./index.css"
+import Header from "./Header"
+import Footer from "./Footer"
+import G from "./G"
 
 function App() {
   return (
-    <>
-      <h1 className="bg-amber-500 mb-12">Oi</h1>
-      <h1>Oi2</h1>
-    </>
+    <div>
+      <Header />
+      <G />
+      <Footer />
+    </div>
   )
 }
 
